@@ -10,3 +10,32 @@
 div.navbar-item.has-dropdown.is-hoverable a.navbar-link:hover {
   background-color: #273019;
 }
+
+ul.nav.nav-tabs.center {
+  border-bottom-color: #f4f4f4;
+}
+
+ul.nav.nav-tabs.center > li.active {
+  background-color: #f4f4f4;
+  border-color: #f4f4f4;
+}
+
+ul.nav.nav-tabs.center > li.active > a {
+  color: #555;
+}
+
+ul.nav.nav-tabs.center > li.active > a:hover {
+  background-color: #f4f4f4;
+  border-color: #f4f4f4;
+  color: #555;
+}
+
+ul.nav.nav-tabs.center > li > a {
+  color: #f4f4f4;
+}
+
+ul.nav.nav-tabs.center > li > a:hover {
+  background-color: #273019;
+  border-color: #f4f4f4;
+  color: #fce064;
+}
