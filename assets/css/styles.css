@@ -6,3 +6,7 @@
   margin: auto;
   width: 100%;
 }
+
+div.navbar-item.has-dropdown.is-hoverable a.navbar-link:hover {
+  background-color: #273019;
+}
